@@ -36,3 +36,18 @@ wheels/
 # Ignore files inside Data directory but not the directory itself
 Data/*
 !Data/.gitkeep
+!Data/sample-*.txt
+!Data/donnees.csv
+
+# Ignore output files from ateliers
+Notebooks/atelier*/output_*.txt
+Notebooks/atelier*/result_*.csv
+Notebooks/atelier*/nouveau.txt
+Notebooks/atelier*/fusion.txt
+Notebooks/atelier*/tache.txt
+Notebooks/atelier*/personnes.csv
+Notebooks/atelier*/resultats.csv
+
+# Include necessary files
+!Notebooks/atelier*/input_*.txt
+!Notebooks/atelier*/config_*.yaml
