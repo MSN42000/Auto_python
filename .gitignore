@@ -31,4 +31,8 @@ wheels/
 .vscode/
 *.swp
 *.swo
-.DS_Store 
+.DS_Store
+
+# Ignore files inside Data directory but not the directory itself
+Data/*
+!Data/.gitkeep
